@@ -1,3 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9af464ed2f492110bc6e2e5df699b640" label="All Sims" max_length="40" name="x_858887_sims_help_all_sims" type="collection"/>
+    <element db_object_id="9af464ed2f492110bc6e2e5df699b640" label="All Sims" max_length="40" name="x_858887_sims_help_all_sims" type="collection">
+        <element choice="3" label="Age" max_length="40" name="age" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Newborn" sequence="0" value="newborn"/>
+                <element inactive_on_update="false" label="Infant" sequence="1" value="infant"/>
+                <element inactive_on_update="false" label="Toddler" sequence="2" value="toddler"/>
+                <element inactive_on_update="false" label="Child" sequence="3" value="child"/>
+                <element inactive_on_update="false" label="Teen" sequence="4" value="teen"/>
+                <element inactive_on_update="false" label="Adult/Young Adult" sequence="5" value="adult_young_adult"/>
+                <element inactive_on_update="false" label="Elder" sequence="6" value="elder"/>
+            </choice>
+        </element>
+        <element label="Deceased" max_length="255" name="deceased" type="boolean"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element display="true" label="Full Name" max_length="40" name="full_name" read_only="true" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="SIM ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Parent 1" max_length="32" name="parent_1" reference="x_858887_sims_help_all_sims" type="reference"/>
+        <element attributes="encode_utf8=false" label="Parent 2" max_length="32" name="parent_2" reference="x_858887_sims_help_all_sims" type="reference"/>
+        <index name="index">
+            <element name="parent_1"/>
+        </index>
+        <index name="index2">
+            <element name="parent_2"/>
+        </index>
+    </element>
 </database>
