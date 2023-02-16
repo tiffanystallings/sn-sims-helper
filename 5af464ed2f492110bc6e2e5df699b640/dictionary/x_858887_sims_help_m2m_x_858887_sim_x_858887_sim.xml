@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e3c745fd2f896110bc6e2e5df699b623" label="Symtoms to Diseases Many to Many" max_length="40" name="x_858887_sims_help_m2m_x_858887_sim_x_858887_sim" type="collection">
+        <element attributes="encode_utf8=false" label="Diseases" max_length="32" name="x_858887_sims_help_diseases" reference="x_858887_sims_help_diseases" type="reference"/>
+        <element attributes="encode_utf8=false" label="Symptoms" max_length="32" name="x_858887_sims_help_symptoms" reference="x_858887_sims_help_symptoms" type="reference"/>
+        <index name="index">
+            <element name="x_858887_sims_help_diseases"/>
+        </index>
+        <index name="index2">
+            <element name="x_858887_sims_help_symptoms"/>
+        </index>
+    </element>
+</database>

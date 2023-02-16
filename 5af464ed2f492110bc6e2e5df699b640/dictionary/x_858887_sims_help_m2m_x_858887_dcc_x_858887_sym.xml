@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d8e451bd2fc96110bc6e2e5df699b694" label="Doctor Case to Symptoms Many to Many" max_length="40" name="x_858887_sims_help_m2m_x_858887_dcc_x_858887_sym" type="collection">
+        <element attributes="encode_utf8=false" label="Doctor Career Cases" max_length="32" name="x_858887_sims_help_doctor_career_cases" reference="x_858887_sims_help_doctor_career_cases" type="reference"/>
+        <element attributes="encode_utf8=false" label="Symptoms" max_length="32" name="x_858887_sims_help_symptoms" reference="x_858887_sims_help_symptoms" type="reference"/>
+        <index name="index">
+            <element name="x_858887_sims_help_symptoms"/>
+        </index>
+    </element>
+</database>

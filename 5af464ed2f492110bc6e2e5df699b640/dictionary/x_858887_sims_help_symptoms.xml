@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1aec34b52f896110bc6e2e5df699b695" label="Symptoms" max_length="40" name="x_858887_sims_help_symptoms" type="collection">
+        <element display="true" label="Label" max_length="40" name="label" type="string"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+    </element>
+</database>
