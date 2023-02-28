@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="Sims Helper">90197d4aecc121107e4d65fe8a6bf608</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 19:05:02</sys_created_on>
+        <sys_id>54197d4addc12110e56a92d3f7eb170d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_54197d4addc12110e56a92d3f7eb170d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-17 19:05:02</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+</record_update>

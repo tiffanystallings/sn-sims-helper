@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dashboard display_value="Sims Helper">10197d4ac0c121104729528a1c5c0107</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 19:05:03</sys_created_on>
+        <sys_id>60197d4a66c12110acfdbdd450502213</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
+        <sys_update_name>par_dashboard_tab_60197d4a66c12110acfdbdd450502213</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-17 19:05:03</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>

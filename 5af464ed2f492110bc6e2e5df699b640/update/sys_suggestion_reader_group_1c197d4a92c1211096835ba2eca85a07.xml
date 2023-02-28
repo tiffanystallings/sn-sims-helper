@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>false</click_in_mode>
+        <context_config_id display_value="Sims Helper - Workspace Search">ec197d4aa6c121100cbe7d49249a1715</context_config_id>
+        <limit>5</limit>
+        <order>500</order>
+        <section_header>Recently viewed</section_header>
+        <suggestion_type>User History Reader Group for Starter Workspace - Workspace Search</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 19:04:59</sys_created_on>
+        <sys_id>1c197d4a92c1211096835ba2eca85a07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User History Reader Group for Starter Workspace - Workspace Search</sys_name>
+        <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_1c197d4a92c1211096835ba2eca85a07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-17 19:04:59</sys_updated_on>
+    </sys_suggestion_reader_group>
+</record_update>

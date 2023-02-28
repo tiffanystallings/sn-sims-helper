@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6ce8e4f12f496110bc6e2e5df699b665" extends="task" label="Doctor Career Cases" max_length="40" name="x_858887_sims_help_doctor_career_cases" type="collection">
+    <element db_object_id="6ce8e4f12f496110bc6e2e5df699b665" extends="task" label="Doctor Career Cases" max_length="40" name="x_858887_sims_help_doctor_career_cases" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Diagnosis" max_length="40" name="diagnosis" reference="x_858887_sims_help_diseases" type="reference">
             <choice/>
         </element>

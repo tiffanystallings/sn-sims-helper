@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="44ad70f52f896110bc6e2e5df699b63e" label="Diseases" max_length="40" name="x_858887_sims_help_diseases" type="collection">
+    <element db_object_id="44ad70f52f896110bc6e2e5df699b63e" label="Diseases" max_length="40" name="x_858887_sims_help_diseases" text_index="true" type="collection">
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
     </element>
 </database>

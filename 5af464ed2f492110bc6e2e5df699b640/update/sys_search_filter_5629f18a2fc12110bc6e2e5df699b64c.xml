@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Diseases">1a29f18a2fc12110bc6e2e5df699b646</ais_search_source>
+        <label>Diseases</label>
+        <name>Diseases</name>
+        <order>200</order>
+        <search_context_config display_value="Sims Helper AI Search Configuration">90197d4a6ec12110c4b7d0091550660b</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 19:05:22</sys_created_on>
+        <sys_id>5629f18a2fc12110bc6e2e5df699b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Diseases</sys_name>
+        <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
+        <sys_update_name>sys_search_filter_5629f18a2fc12110bc6e2e5df699b64c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-17 19:05:22</sys_updated_on>
+    </sys_search_filter>
+</record_update>

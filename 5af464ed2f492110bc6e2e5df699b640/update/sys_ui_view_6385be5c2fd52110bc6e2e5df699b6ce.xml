@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>living_sims</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-24 23:15:34</sys_created_on>
+        <sys_id>6385be5c2fd52110bc6e2e5df699b6ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Living Sims</sys_name>
+        <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
+        <sys_update_name>sys_ui_view_6385be5c2fd52110bc6e2e5df699b6ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-24 23:15:34</sys_updated_on>
+        <title>Living Sims</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

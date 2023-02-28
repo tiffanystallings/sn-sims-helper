@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a7a86edc2f952110bc6e2e5df699b675" label="Sim" max_length="40" name="x_858887_sims_help_sim" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Age" mandatory="true" max_length="40" name="age" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Newborn" sequence="0" value="newborn"/>
+                <element inactive_on_update="false" label="Infant" sequence="1" value="infant"/>
+                <element inactive_on_update="false" label="Toddler" sequence="2" value="toddler"/>
+                <element inactive_on_update="false" label="Child" sequence="3" value="child"/>
+                <element inactive_on_update="false" label="Teen" sequence="4" value="teen"/>
+                <element inactive_on_update="false" label="Young Adult" sequence="5" value="young_adult"/>
+                <element inactive_on_update="false" label="Adult" sequence="6" value="adult"/>
+                <element inactive_on_update="false" label="Elder" sequence="7" value="elder"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Deceased" max_length="40" name="deceased" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;const fullName = current.first_name.getDisplayValue() + ' ' + current.last_name.getDisplayValue();&#13;&#10;&#9;return fullName;&#13;&#10;&#13;&#10;})(current);" label="Full Name" max_length="40" name="full_name" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Household ID" max_length="32" name="household_id" reference="x_858887_sims_help_household" type="reference"/>
+        <element label="Is Alive" max_length="40" name="is_alive" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent 1" max_length="32" name="parent_1" reference="x_858887_sims_help_sim" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent 2" max_length="32" name="parent_2" reference="x_858887_sims_help_sim" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Significant Other" max_length="32" name="significant_other" reference="x_858887_sims_help_sim" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Sim ID" max_length="40" name="sim_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Species" mandatory="true" max_length="40" name="species" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Human" sequence="0" value="human"/>
+                <element inactive_on_update="false" label="Dog" sequence="1" value="dog"/>
+                <element inactive_on_update="false" label="Cat" sequence="2" value="cat"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="household_id"/>
+        </index>
+        <index name="index2">
+            <element name="sim_id"/>
+        </index>
+    </element>
+</database>

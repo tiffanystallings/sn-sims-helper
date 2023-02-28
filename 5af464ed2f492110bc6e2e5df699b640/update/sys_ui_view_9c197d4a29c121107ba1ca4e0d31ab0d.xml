@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-sims-helper-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 19:05:03</sys_created_on>
+        <sys_id>9c197d4a29c121107ba1ca4e0d31ab0d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Workspace Sims Helper 0</sys_name>
+        <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
+        <sys_update_name>sys_ui_view_9c197d4a29c121107ba1ca4e0d31ab0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-17 19:05:29</sys_updated_on>
+        <title>Workspace Sims Helper 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2b6eae942fd52110bc6e2e5df699b60f" extends="sys_import_set_row" label="Household Data Mapping" max_length="40" name="x_858887_sims_help_ihub_import_a37daa142fd52110bc6e2e5df699b6b5" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

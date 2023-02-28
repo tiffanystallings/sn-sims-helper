@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_858887_sims_help_sims</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-24 22:07:52</sys_created_on>
+        <sys_id>40166a1c2f952110bc6e2e5df699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_858887_sims_help_sims</sys_name>
+        <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
+        <sys_update_name>sys_security_acl_40166a1c2f952110bc6e2e5df699b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-24 22:07:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</application>
+        <file_path/>
+        <instance_id>5a17c03a9b481fc0a4e16b8af359ffce</instance_id>
+        <instance_name>dev49275</instance_name>
+        <name>sys_security_acl_40166a1c2f952110bc6e2e5df699b6ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_858887_sims_help_sims</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-24 22:07:52</sys_created_on><sys_id>40166a1c2f952110bc6e2e5df699b6ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_858887_sims_help_sims</sys_name><sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package><sys_policy/><sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope><sys_update_name>sys_security_acl_40166a1c2f952110bc6e2e5df699b6ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-24 22:07:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>94778791</payload_hash>
+        <record_name>x_858887_sims_help_sims</record_name>
+        <reverted_from/>
+        <source>a5a3c9692fc92110bc6e2e5df699b608</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-24 22:07:52</sys_created_on>
+        <sys_id>44166a1c2f952110bc6e2e5df699b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1868577e5570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-24 22:07:52</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>88166a1cf29521103d3538f23d444aac</update_guid>
+        <update_guid_history>88166a1cf29521103d3538f23d444aac:94778791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-24 22:12:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3e6f45fe153b411c9f30dc459f3e9990</sys_id>
+        <sys_metadata>40166a1c2f952110bc6e2e5df699b6ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_858887_sims_help_sims</sys_name>
+        <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
+        <sys_parent display_value="">ecf5e21c2f952110bc6e2e5df699b6d3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
+        <sys_scope_delete display_value="">3206b89f274a4c76b5d7deb2158ba331</sys_scope_delete>
+        <sys_update_name>sys_security_acl_40166a1c2f952110bc6e2e5df699b6ab</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_40166a1c2f952110bc6e2e5df699b6ab">44166a1c2f952110bc6e2e5df699b6ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-24 22:12:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

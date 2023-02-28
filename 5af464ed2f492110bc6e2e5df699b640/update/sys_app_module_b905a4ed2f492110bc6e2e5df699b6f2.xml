@@ -12,7 +12,7 @@
         <map_page/>
         <mobile_title>Sims</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_858887_sims_help_all_sims</name>
+        <name>x_858887_sims_help_sim</name>
         <order>0</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -24,15 +24,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b905a4ed2f492110bc6e2e5df699b6f2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>All Sims</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_858887_sims_help_sim</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sims Helper" source="x_858887_sims_help">5af464ed2f492110bc6e2e5df699b640</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sims Helper">5af464ed2f492110bc6e2e5df699b640</sys_scope>
         <sys_update_name>sys_app_module_b905a4ed2f492110bc6e2e5df699b6f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-16 20:16:39</sys_updated_on>
+        <sys_updated_on>2023-02-24 23:12:11</sys_updated_on>
         <timeline_page/>
         <title>All Sims</title>
         <uncancelable>false</uncancelable>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0d1862dc2f952110bc6e2e5df699b6b3" label="Household" max_length="40" name="x_858887_sims_help_household" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="ID" max_length="40" name="id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="id"/>
+        </index>
+    </element>
+</database>
